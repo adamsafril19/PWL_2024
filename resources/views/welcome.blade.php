@@ -141,47 +141,62 @@
     <title>Data Diri</title>
 </head>
 <style>
-table , td{
-  border:1px solid black;
-  padding:5px
-}
+    div{
+        width: 500px;
+        height: 400px;
+        background-color: #d2d2d2;
+        margin: auto
+    }
+    table , td{
+        border:1px solid black;
+        padding:5px 
+    }
+    table{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    h1, h3{
+        text-align: center;
+    }
 </style>
 <body>
-    <h1>Selamat Datang</h1>
-    <h3>Data Diri</h3>
-    <table>
-        <tr>
-            <td>Nama</td>
-            <td>Adam Safrila Irawan</td>
-        </tr>
-        <tr>
-            <td>Tempat, Tanggal Lahir</td>
-            <td>Pasuruan, 19 April 2004</td>
-        </tr>
-        <tr>
-            <td>Jenis Kelamin</td>
-            <td>Laki-Laki</td>
-        </tr>
-        <tr>
-            <td>Alamat</td>
-            <td>Jl KH Abdul Hamid Gg 11 No 25</td>
-        </tr>
-        <tr>
-            <td>Agama</td>
-            <td>Islam</td>
-        </tr>
-        <tr>
-            <td>Status Perkawinan</td>
-            <td>Belum Kawin</td>
-        </tr>
-        <tr>
-            <td>Pekerjaan</td>
-            <td>Pelajar / Mahasiswa</td>
-        </tr>
-        <tr>
-            <td>Kewarganegaraan</td>
-            <td>WNI</td>
-        </tr>
-    </table>
+    <div>
+        <h1>Selamat Datang</h1>
+        <h3>Data Diri</h3>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>Adam Safrila Irawan</td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>Pasuruan, 19 April 2004</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>Laki-Laki</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>Jl KH Abdul Hamid Gg 11 No 25</td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>Islam</td>
+            </tr>
+            <tr>
+                <td>Status Perkawinan</td>
+                <td>Belum Kawin</td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td>Pelajar / Mahasiswa</td>
+            </tr>
+            <tr>
+                <td>Kewarganegaraan</td>
+                <td>WNI</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
